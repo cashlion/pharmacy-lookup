@@ -10,6 +10,7 @@ const run = async () => {
     .map(row => {
       return {
         name: row.properties.name,
+        address: row.properties.address,
         city: row.properties.city,
         state: row.properties.state,
         postal_code: row.properties.postal_code,
